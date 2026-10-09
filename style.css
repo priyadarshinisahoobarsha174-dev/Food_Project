@@ -1,10 +1,66 @@
-*{
-    padding: 0; 
+* {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-.Navar{
+
+body {
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+img {
     width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* Header */
+
+.header {
     height: 70px;
+    padding: 0 8%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-bottom: 1px solid #eee;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.logo span,
+footer span {
+    color: rgb(41, 161, 22);
+}
+
+.Navbar {
+    display: flex;
+    gap: 25px;
+}
+
+.Navbar a:hover {
+    color: red;
+}
+
+.header-btn {
+    background:white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 25px;
     border: 1px solid black;
+}
+
+.header-btn:hover{
+    background-color: red;
+
 }
